@@ -1,0 +1,9 @@
+include:
+  - "cursor_rules/core.md"
+  - "cursor_rules/project_specs.md"
+  - "cursor_rules/db_structure.md"
+  - "cursor_rules/feature_flags.md"
+  - "cursor_rules/coding_rules.md"
+  - "cursor_rules/release_plan.md"
+  - "cursor_rules/prompts_to_cursor.md"
+  - "cursor_rules/complete_readme.md"

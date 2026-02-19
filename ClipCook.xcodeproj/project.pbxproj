@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		03D715912F3E36B50010B971 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 03D715902F3E36B50010B971 /* FirebaseAuth */; };
+		03D715932F3E36B50010B971 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 03D715922F3E36B50010B971 /* FirebaseCore */; };
+		03D715952F3E36B50010B971 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 03D715942F3E36B50010B971 /* FirebaseFirestore */; };
+		03D716AB2F3E37310010B971 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 03D715A02F3E38000010B971 /* FirebaseAuth */; };
+		03D716AC2F3E37310010B971 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 03D715A12F3E38010010B971 /* FirebaseFirestore */; };
+		03D7171B2F3E395A0010B971 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03D7171A2F3E395A0010B971 /* GoogleService-Info.plist */; };
+		03D7172A2F3E3CDE0010B971 /* ClipCookShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 03D717202F3E3CDE0010B971 /* ClipCookShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		03D715202F3E2F910010B971 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,13 +31,46 @@
 			remoteGlobalIDString = 03D715112F3E2F900010B971;
 			remoteInfo = ClipCook;
 		};
+		03D717282F3E3CDE0010B971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D7150A2F3E2F900010B971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D7171F2F3E3CDE0010B971;
+			remoteInfo = ClipCookShareExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03D7172F2F3E3CDE0010B971 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03D7172A2F3E3CDE0010B971 /* ClipCookShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		03D715122F3E2F900010B971 /* ClipCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D7151F2F3E2F910010B971 /* ClipCookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipCookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D715292F3E2F910010B971 /* ClipCookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipCookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D7171A2F3E395A0010B971 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		03D717202F3E3CDE0010B971 /* ClipCookShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClipCookShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		03D7172B2F3E3CDE0010B971 /* Exceptions for "ClipCookShareExtension" folder in "ClipCookShareExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 03D7171F2F3E3CDE0010B971 /* ClipCookShareExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		03D715142F3E2F900010B971 /* ClipCook */ = {
@@ -45,6 +88,14 @@
 			path = ClipCookUITests;
 			sourceTree = "<group>";
 		};
+		03D717212F3E3CDE0010B971 /* ClipCookShareExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				03D7172B2F3E3CDE0010B971 /* Exceptions for "ClipCookShareExtension" folder in "ClipCookShareExtension" target */,
+			);
+			path = ClipCookShareExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +103,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D715932F3E36B50010B971 /* FirebaseCore in Frameworks */,
+				03D715912F3E36B50010B971 /* FirebaseAuth in Frameworks */,
+				03D715952F3E36B50010B971 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +113,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D716AC2F3E37310010B971 /* FirebaseFirestore in Frameworks */,
+				03D716AB2F3E37310010B971 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		03D715262F3E2F910010B971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D7171D2F3E3CDE0010B971 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,7 +141,9 @@
 				03D715142F3E2F900010B971 /* ClipCook */,
 				03D715222F3E2F910010B971 /* ClipCookTests */,
 				03D7152C2F3E2F910010B971 /* ClipCookUITests */,
+				03D717212F3E3CDE0010B971 /* ClipCookShareExtension */,
 				03D715132F3E2F900010B971 /* Products */,
+				03D7171A2F3E395A0010B971 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +153,7 @@
 				03D715122F3E2F900010B971 /* ClipCook.app */,
 				03D7151F2F3E2F910010B971 /* ClipCookTests.xctest */,
 				03D715292F3E2F910010B971 /* ClipCookUITests.xctest */,
+				03D717202F3E3CDE0010B971 /* ClipCookShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,16 +168,21 @@
 				03D7150E2F3E2F900010B971 /* Sources */,
 				03D7150F2F3E2F900010B971 /* Frameworks */,
 				03D715102F3E2F900010B971 /* Resources */,
+				03D7172F2F3E3CDE0010B971 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				03D717292F3E3CDE0010B971 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				03D715142F3E2F900010B971 /* ClipCook */,
 			);
 			name = ClipCook;
 			packageProductDependencies = (
+				03D715902F3E36B50010B971 /* FirebaseAuth */,
+				03D715922F3E36B50010B971 /* FirebaseCore */,
+				03D715942F3E36B50010B971 /* FirebaseFirestore */,
 			);
 			productName = ClipCook;
 			productReference = 03D715122F3E2F900010B971 /* ClipCook.app */;
@@ -135,6 +206,8 @@
 			);
 			name = ClipCookTests;
 			packageProductDependencies = (
+				03D715A02F3E38000010B971 /* FirebaseAuth */,
+				03D715A12F3E38010010B971 /* FirebaseFirestore */,
 			);
 			productName = ClipCookTests;
 			productReference = 03D7151F2F3E2F910010B971 /* ClipCookTests.xctest */;
@@ -163,6 +236,28 @@
 			productReference = 03D715292F3E2F910010B971 /* ClipCookUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		03D7171F2F3E3CDE0010B971 /* ClipCookShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D7172C2F3E3CDE0010B971 /* Build configuration list for PBXNativeTarget "ClipCookShareExtension" */;
+			buildPhases = (
+				03D7171C2F3E3CDE0010B971 /* Sources */,
+				03D7171D2F3E3CDE0010B971 /* Frameworks */,
+				03D7171E2F3E3CDE0010B971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				03D717212F3E3CDE0010B971 /* ClipCookShareExtension */,
+			);
+			name = ClipCookShareExtension;
+			packageProductDependencies = (
+			);
+			productName = ClipCookShareExtension;
+			productReference = 03D717202F3E3CDE0010B971 /* ClipCookShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +279,9 @@
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = 03D715112F3E2F900010B971;
 					};
+					03D7171F2F3E3CDE0010B971 = {
+						CreatedOnToolsVersion = 26.2;
+					};
 				};
 			};
 			buildConfigurationList = 03D7150D2F3E2F900010B971 /* Build configuration list for PBXProject "ClipCook" */;
@@ -195,6 +293,9 @@
 			);
 			mainGroup = 03D715092F3E2F900010B971;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				03D7158F2F3E36B50010B971 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 03D715132F3E2F900010B971 /* Products */;
 			projectDirPath = "";
@@ -203,6 +304,7 @@
 				03D715112F3E2F900010B971 /* ClipCook */,
 				03D7151E2F3E2F910010B971 /* ClipCookTests */,
 				03D715282F3E2F910010B971 /* ClipCookUITests */,
+				03D7171F2F3E3CDE0010B971 /* ClipCookShareExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D7171B2F3E395A0010B971 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +326,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		03D715272F3E2F910010B971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D7171E2F3E3CDE0010B971 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +363,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03D7171C2F3E3CDE0010B971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +382,11 @@
 			isa = PBXTargetDependency;
 			target = 03D715112F3E2F900010B971 /* ClipCook */;
 			targetProxy = 03D7152A2F3E2F910010B971 /* PBXContainerItemProxy */;
+		};
+		03D717292F3E3CDE0010B971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D7171F2F3E3CDE0010B971 /* ClipCookShareExtension */;
+			targetProxy = 03D717282F3E3CDE0010B971 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -388,8 +510,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClipCook/ClipCook.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZRPTYMRKG;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -409,8 +534,13 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramonwebdev.ClipCook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -430,8 +560,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClipCook/ClipCook.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZRPTYMRKG;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -451,8 +584,13 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramonwebdev.ClipCook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -473,6 +611,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZRPTYMRKG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
@@ -498,6 +637,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZRPTYMRKG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
@@ -522,6 +662,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZRPTYMRKG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
@@ -546,6 +687,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZRPTYMRKG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
@@ -562,6 +704,73 @@
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_TARGET_NAME = ClipCook;
 				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		03D7172D2F3E3CDE0010B971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ClipCookShareExtension/ClipCookShareExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZRPTYMRKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClipCookShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClipCookShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramonwebdev.ClipCook.ClipCookShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03D7172E2F3E3CDE0010B971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ClipCookShareExtension/ClipCookShareExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZRPTYMRKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClipCookShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClipCookShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramonwebdev.ClipCook.ClipCookShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -604,7 +813,55 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		03D7172C2F3E3CDE0010B971 /* Build configuration list for PBXNativeTarget "ClipCookShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D7172D2F3E3CDE0010B971 /* Debug */,
+				03D7172E2F3E3CDE0010B971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03D7158F2F3E36B50010B971 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03D715902F3E36B50010B971 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03D7158F2F3E36B50010B971 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		03D715922F3E36B50010B971 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03D7158F2F3E36B50010B971 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		03D715942F3E36B50010B971 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03D7158F2F3E36B50010B971 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		03D715A02F3E38000010B971 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03D7158F2F3E36B50010B971 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		03D715A12F3E38010010B971 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03D7158F2F3E36B50010B971 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 03D7150A2F3E2F900010B971 /* Project object */;
 }

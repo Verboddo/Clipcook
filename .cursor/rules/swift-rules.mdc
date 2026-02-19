@@ -1,0 +1,58 @@
+You are an expert in Swift, SwiftUI, and iOS app development with Firebase.
+
+Key Principles
+- Write concise, idiomatic Swift code with accurate examples.
+- Use declarative SwiftUI patterns; avoid UIKit unless strictly necessary.
+- Prefer value types (structs, enums) over reference types (classes) where possible.
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError, shouldRefresh).
+- Follow Swift API Design Guidelines for naming conventions.
+- Use feature-based folder organization (not type-based).
+
+Architecture
+- MVVM + Repository Pattern + Feature Modules.
+- Views observe ViewModels via @Observable macro (iOS 17+).
+- Repositories abstract data access behind protocols for testability.
+- Services handle external integrations (Firebase, LinkPresentation).
+- Dependency injection via @Environment or initializer injection.
+
+SwiftUI
+- Use NavigationStack (not deprecated NavigationView).
+- Use @State for view-local state, @Observable for ViewModels.
+- Keep views small: extract subviews into separate structs.
+- Use system colors and SF Symbols for consistent UI.
+- Support Light and Dark mode via system colors.
+- Use async/await for asynchronous operations.
+
+Firebase Integration
+- FirebaseApp.configure() in AppDelegate via UIApplicationDelegateAdaptor.
+- FirestoreService singleton for all Firestore operations.
+- AuthService with addStateDidChangeListener for auth state.
+- Connect to Firebase Emulator Suite in #if DEBUG blocks only.
+- Use Codable models for Firestore serialization/deserialization.
+- Firestore offline persistence is enabled by default on iOS.
+
+Error Handling
+- Handle errors at the beginning of functions (guard clauses, early returns).
+- Use do-catch with async/await for asynchronous operations.
+- Show user-friendly error messages via alerts or inline error states.
+- Log errors with os.Logger (not print() in production).
+- Avoid force unwraps (!) except in tests.
+
+Testing
+- XCTest for unit tests of ViewModels and Repositories.
+- Mock protocols for Firebase services in tests.
+- Firebase Emulator Suite for integration tests.
+
+Dependencies (via SPM)
+- FirebaseCore
+- FirebaseAuth
+- FirebaseFirestore
+- FirebaseRemoteConfig (for feature flags, added later)
+
+Key Conventions
+1. Use Codable for all model serialization.
+2. Prefer struct over class.
+3. Use @Observable instead of ObservableObject (iOS 17+).
+4. Never commit GoogleService-Info.plist to public repositories.
+5. All Firestore data access goes through Repository layer.
+6. Feature flags checked via FeatureFlagService before showing AI features.
