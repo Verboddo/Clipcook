@@ -12,7 +12,7 @@ Architecture
 - MVVM + Repository Pattern + Feature Modules.
 - Views observe ViewModels via @Observable macro (iOS 17+).
 - Repositories abstract data access behind protocols for testability.
-- Services handle external integrations (Firebase, LinkPresentation).
+- Services handle external integrations (Firebase Auth, AI, LinkPresentation, StoreKit 2).
 - Dependency injection via @Environment or initializer injection.
 
 SwiftUI
@@ -20,12 +20,14 @@ SwiftUI
 - Use @State for view-local state, @Observable for ViewModels.
 - Keep views small: extract subviews into separate structs.
 - Use system colors and SF Symbols for consistent UI.
-- Support Light and Dark mode via system colors.
+- Support Light and Dark mode via SwiftUI semantic colors.
 - Use async/await for asynchronous operations.
+- Use foregroundStyle() (not foregroundColor), clipShape(.rect(cornerRadius:)).
+- Use Tab API for tab bars, Button over onTapGesture().
 
 Firebase Integration
 - FirebaseApp.configure() in AppDelegate via UIApplicationDelegateAdaptor.
-- FirestoreService singleton for all Firestore operations.
+- Repositories abstract all Firestore operations behind protocols.
 - AuthService with addStateDidChangeListener for auth state.
 - Connect to Firebase Emulator Suite in #if DEBUG blocks only.
 - Use Codable models for Firestore serialization/deserialization.
@@ -39,20 +41,27 @@ Error Handling
 - Avoid force unwraps (!) except in tests.
 
 Testing
-- XCTest for unit tests of ViewModels and Repositories.
-- Mock protocols for Firebase services in tests.
+- XCTest for unit tests of ViewModels, Repositories, and Services.
+- Mock protocols for all external dependencies in tests.
 - Firebase Emulator Suite for integration tests.
 
 Dependencies (via SPM)
 - FirebaseCore
 - FirebaseAuth
 - FirebaseFirestore
-- FirebaseRemoteConfig (for feature flags, added later)
+- GoogleSignIn
+
+Premium Gating
+- Single isPremium boolean on the user document.
+- No feature flags, no Remote Config.
+- AI recipe extraction is standard for all users (not premium).
 
 Key Conventions
 1. Use Codable for all model serialization.
 2. Prefer struct over class.
 3. Use @Observable instead of ObservableObject (iOS 17+).
-4. Never commit GoogleService-Info.plist to public repositories.
-5. All Firestore data access goes through Repository layer.
-6. Feature flags checked via FeatureFlagService before showing AI features.
+4. Mark ViewModels with @MainActor.
+5. Never commit GoogleService-Info.plist to public repositories.
+6. All Firestore data access goes through Repository layer.
+7. All user-facing strings in .xcstrings String Catalogs (Dutch).
+8. Use os.Logger — never print() in production.

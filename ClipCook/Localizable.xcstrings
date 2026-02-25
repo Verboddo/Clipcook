@@ -1,0 +1,1213 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "(%lld cal)" : {
+
+    },
+    "/ %lldg" : {
+
+    },
+    "%@, %@, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@, %3$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld / %lld kcal" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld kcal"
+          }
+        }
+      }
+    },
+    "%lld %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld %2$@"
+          }
+        }
+      }
+    },
+    "%lld cal" : {
+
+    },
+    "%lld cal · %lldg P · %lldg C · %lldg F" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld cal · %2$lldg P · %3$lldg C · %4$lldg F"
+          }
+        }
+      }
+    },
+    "%lld cal · %lldg protein" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld cal · %2$lldg protein"
+          }
+        }
+      }
+    },
+    "%lld items" : {
+
+    },
+    "%lld recipes" : {
+
+    },
+    "%lld recipes saved" : {
+
+    },
+    "%lld/%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "%lld%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld%2$@"
+          }
+        }
+      }
+    },
+    "%lld%%" : {
+
+    },
+    "%lldg" : {
+
+    },
+    "+ %@" : {
+
+    },
+    "0" : {
+
+    },
+    "4" : {
+
+    },
+    "10 min" : {
+
+    },
+    "25 min" : {
+
+    },
+    "1200" : {
+
+    },
+    "4000" : {
+
+    },
+    "Active" : {
+
+    },
+    "Add item..." : {
+
+    },
+    "Add to Today" : {
+
+    },
+    "AI extraction, auto nutrition & more" : {
+
+    },
+    "Also works via Share Extension" : {
+
+    },
+    "Archive" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archiveren"
+          }
+        }
+      }
+    },
+    "Archived Recipes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archived Recipes"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gearchiveerde Recepten"
+          }
+        }
+      }
+    },
+    "Auto-calculated from calories (30% P / 40% C / 30% F). Fine-tune below." : {
+
+    },
+    "Build your collection, plan meals, and never lose a recipe again." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Build your collection, plan meals, and never lose a recipe again."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bouw je collectie, plan maaltijden en verlies nooit meer een recept."
+          }
+        }
+      }
+    },
+    "By continuing, you agree to our Terms of Service and Privacy Policy" : {
+
+    },
+    "Calories" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calories"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calorieën"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuleren"
+          }
+        }
+      }
+    },
+    "Carbs" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carbs"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koolhydraten"
+          }
+        }
+      }
+    },
+    "Change Email" : {
+
+    },
+    "Change Password" : {
+
+    },
+    "Chef mascot, feeling %@" : {
+
+    },
+    "Choose a meal slot" : {
+
+    },
+    "Choose Meal Slot" : {
+
+    },
+    "Clear checked (%lld)" : {
+
+    },
+    "Clip It" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clip It"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clip Het"
+          }
+        }
+      }
+    },
+    "ClipCook" : {
+
+    },
+    "CLIPCOOK" : {
+
+    },
+    "Continue with Email" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue with Email"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verder met Email"
+          }
+        }
+      }
+    },
+    "Cook It" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cook It"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kook Het"
+          }
+        }
+      }
+    },
+    "Cook Mode" : {
+
+    },
+    "COOK MODE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "COOK MODE"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KOOKMODUS"
+          }
+        }
+      }
+    },
+    "Cook Time" : {
+
+    },
+    "Cook: %@" : {
+
+    },
+    "Couldn't auto-extract — paste the caption manually" : {
+
+    },
+    "Couldn't retrieve metadata" : {
+
+    },
+    "Daily Calories" : {
+
+    },
+    "Daily Macro Tracker" : {
+
+    },
+    "Dark Mode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark Mode"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Donkere Modus"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijderen"
+          }
+        }
+      }
+    },
+    "Delete Account" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Account"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Account Verwijderen"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klaar"
+          }
+        }
+      }
+    },
+    "Done — Next Step" : {
+
+    },
+    "Double tap to view recipe details" : {
+
+    },
+    "Edit & Save" : {
+
+    },
+    "Edit ingredients, adjust servings, and follow step-by-step instructions." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit ingredients, adjust servings, and follow step-by-step instructions."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewerk ingrediënten, pas porties aan en volg stap-voor-stap instructies."
+          }
+        }
+      }
+    },
+    "Edit Manually" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Manually"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handmatig Bewerken"
+          }
+        }
+      }
+    },
+    "Edit Recipe" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Recipe"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recept Bewerken"
+          }
+        }
+      }
+    },
+    "Email" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        }
+      }
+    },
+    "Email change is managed through your sign-in provider (Apple, Google, or Email)." : {
+
+    },
+    "Email Sign In" : {
+
+    },
+    "Enjoy your meal!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enjoy your meal!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eet smakelijk!"
+          }
+        }
+      }
+    },
+    "Extract Recipe" : {
+
+    },
+    "Extracting recipe details..." : {
+
+    },
+    "Fats" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fats"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vetten"
+          }
+        }
+      }
+    },
+    "Fetching your recipe..." : {
+
+    },
+    "Finish Recipe" : {
+
+    },
+    "Free" : {
+
+    },
+    "from %@" : {
+
+    },
+    "g" : {
+
+    },
+    "Get Started" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Started"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aan de slag"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        }
+      }
+    },
+    "Imperial" : {
+
+    },
+    "Import" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importeren"
+          }
+        }
+      }
+    },
+    "Import Recipe" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Recipe"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recept Importeren"
+          }
+        }
+      }
+    },
+    "Ingredient" : {
+
+    },
+    "Ingredients" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredients"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrediënten"
+          }
+        }
+      }
+    },
+    "Instagram" : {
+
+    },
+    "kcal" : {
+
+    },
+    "Keep It" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep It"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar Het"
+          }
+        }
+      }
+    },
+    "Locked" : {
+
+    },
+    "Log Out" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log Out"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitloggen"
+          }
+        }
+      }
+    },
+    "Meal Planner" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meal Planner"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maaltijdplanner"
+          }
+        }
+      }
+    },
+    "Metric" : {
+
+    },
+    "My Recipes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My Recipes"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn Recepten"
+          }
+        }
+      }
+    },
+    "Next" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volgende"
+          }
+        }
+      }
+    },
+    "No image available" : {
+
+    },
+    "Nutrition" : {
+
+    },
+    "Nutrition Info" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutrition Info"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voedingswaarden"
+          }
+        }
+      }
+    },
+    "OK" : {
+
+    },
+    "Open the Instagram post → tap ··· → Copy text, then paste here" : {
+
+    },
+    "or" : {
+
+    },
+    "Override with manual paste" : {
+
+    },
+    "Password" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachtwoord"
+          }
+        }
+      }
+    },
+    "Password change is available for email accounts. A reset link will be sent to your email address." : {
+
+    },
+    "Paste Instagram link..." : {
+
+    },
+    "Paste the caption to extract ingredients & steps" : {
+
+    },
+    "Paste the Instagram caption above to auto-detect ingredients and steps, or save manually." : {
+
+    },
+    "Pause timer" : {
+
+    },
+    "Photo" : {
+
+    },
+    "Pick a recipe or quick snack" : {
+
+    },
+    "Planner" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Planner"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Planner"
+          }
+        }
+      }
+    },
+    "Premium" : {
+
+    },
+    "Premium Mode" : {
+
+    },
+    "Prep Time" : {
+
+    },
+    "Prep: %@" : {
+
+    },
+    "Protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protein"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eiwit"
+          }
+        }
+      }
+    },
+    "Purchase restoration will be available when the subscription system is fully configured." : {
+
+    },
+    "Qty" : {
+
+    },
+    "Quick Add" : {
+
+    },
+    "Recipe complete!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recipe complete!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recept klaar!"
+          }
+        }
+      }
+    },
+    "Recipe details extracted automatically" : {
+
+    },
+    "Recipe Saved!" : {
+
+    },
+    "Recipe title" : {
+
+    },
+    "Recipes" : {
+
+    },
+    "Restore Purchases" : {
+
+    },
+    "Save" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opslaan"
+          }
+        }
+      }
+    },
+    "Save as-is" : {
+
+    },
+    "Save recipes from Instagram with a single tap. Just paste a link or share directly." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save recipes from Instagram with a single tap. Just paste a link or share directly."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sla recepten op van Instagram met één tik. Plak een link of deel direct."
+          }
+        }
+      }
+    },
+    "Search recipes..." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search recipes..."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoek recepten..."
+          }
+        }
+      }
+    },
+    "Servings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servings"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porties"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instellingen"
+          }
+        }
+      }
+    },
+    "Share → ClipCook" : {
+
+    },
+    "Shopping" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shopping"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boodschappen"
+          }
+        }
+      }
+    },
+    "Shopping List" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shopping List"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boodschappenlijst"
+          }
+        }
+      }
+    },
+    "Sign In" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign In"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inloggen"
+          }
+        }
+      }
+    },
+    "Sign in to save your recipes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign in to save your recipes"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log in om je recepten te bewaren"
+          }
+        }
+      }
+    },
+    "Skip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overslaan"
+          }
+        }
+      }
+    },
+    "Start timer" : {
+
+    },
+    "Step %lld of %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Step %1$lld of %2$lld"
+          }
+        }
+      }
+    },
+    "Step instruction..." : {
+
+    },
+    "Step Timer" : {
+
+    },
+    "Steps" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steps"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stappen"
+          }
+        }
+      }
+    },
+    "Tap to add photo" : {
+
+    },
+    "This will permanently delete your account and all data. This action cannot be undone." : {
+
+    },
+    "Title" : {
+
+    },
+    "Today's Nutrition" : {
+
+    },
+    "Toggle to preview premium features" : {
+
+    },
+    "Track calories, protein, carbs & fats — upgrade to unlock" : {
+
+    },
+    "Try Again" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try Again"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probeer Opnieuw"
+          }
+        }
+      }
+    },
+    "Type" : {
+
+    },
+    "Undo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undo"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ongedaan maken"
+          }
+        }
+      }
+    },
+    "Units" : {
+
+    },
+    "Upgrade to Premium" : {
+
+    },
+    "v1.0.0" : {
+
+    },
+    "We weren't able to extract recipe data from this link. You can try a different URL or enter the recipe details yourself." : {
+
+    },
+    "Welcome to ClipCook" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to ClipCook"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welkom bij ClipCook"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
